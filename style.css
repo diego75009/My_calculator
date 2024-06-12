@@ -10,5 +10,12 @@
 .button{
     padding: 10px 20px;
     font-size: 1.5em;
-    color: blue;
+    color: rgb(255, 255, 255);
+    background-color: rgb(55, 47, 160);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+button:hover{
+    background-color:rgb(106, 101, 168);
 }
